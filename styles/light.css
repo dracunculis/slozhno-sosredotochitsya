@@ -41,8 +41,8 @@
     --logo-color: #FFC2E6;
     background-image: url(../images/cover-image-light.png);
   }
-  
-  /*.decorative-element {
-    display: none;
-  } */
 }
+
+.page.theme_light .decorative-element {
+    display: none;
+  }

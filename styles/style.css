@@ -326,10 +326,7 @@ a {
 }
 
 @media (width >= 1024px) {
-  .header__theme-menu-list {
-    padding-top: 20px;
-  }
-
+  
   .header_subtitle {
     margin-top: 15px;
   }
@@ -352,6 +349,7 @@ a {
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
+    padding-top: 20px;
   }
 
   .gallery-box {
