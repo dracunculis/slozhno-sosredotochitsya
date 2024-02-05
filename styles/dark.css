@@ -18,6 +18,8 @@
   --main-text-color: #F1B2CE;
   --logo-color: #DB00FF;
   --logo-shadow-color:#FF0070;
+  background-image: url(../images/cover-image-dark.png);
+  background-color: var(--bg-color);
 }
 
 :root.page.theme_dark {
@@ -30,4 +32,22 @@
   --main-text-color: #F1B2CE;
   --logo-color: #DB00FF;
   --logo-shadow-color:#FF0070;
+  background-image: url(../images/cover-image-dark.png);
+  background-color: var(--bg-color);
 }
+
+.page.theme_dark .decorative-element {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+/*
+@media (prefers-color-scheme: dark) {
+.page.theme_dark {
+  background-image: url(../images/cover-image-dark.png);
+  background-color: var(--bg-color);
+}
+}*/
