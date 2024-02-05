@@ -276,6 +276,10 @@ a {
     padding: 21px;
   }
 
+  .margin-increased {
+    margin-bottom: 19px;
+  }
+
   .content-box:is(.column) {
     display: grid;
     grid-template-columns: 1fr;
@@ -286,6 +290,7 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: span 2;
+    margin-left: 0.5rem;
   }
 
   .content-title {
