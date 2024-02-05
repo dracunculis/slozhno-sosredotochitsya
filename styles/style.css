@@ -115,6 +115,10 @@
   text-decoration: underline;
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid var(--nav-color);
+}
+
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
